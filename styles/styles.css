@@ -1,0 +1,175 @@
+:root {
+    --orange: #FF6C00;
+    --white: #FFFFFF;
+    --black: #303030;
+    --grey: #9DA4BD;
+    --primary-font: 'Open sans', sans-serif; 
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+   display: block;
+   max-width: 100%; 
+   height: auto;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    font-family: var(--primary-font);
+}
+
+/*Stilizare header*/
+
+.header{
+    background-color: var(--black);
+}
+
+.header__logo {
+    background-color: var(--white);
+}
+
+.header__navigation ul{
+    list-style: none;
+}
+
+.header__navigation a {
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: var(--white); 
+}
+
+.header__info a {
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: var(--white);
+}
+
+.header__navigation a:hover {
+    color: var(--orange);
+}
+
+.header__booking {
+    
+}
+
+.button {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: transparent;
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border: 1px solid var(--orange);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: var(--white);
+    background-color: var(--orange);
+}
+
+/*Stilizare Hero Section*/
+
+.hero-section {
+    background-color: var(--black);
+    height: 100vh;
+}
+
+.hero-section__subtitle {
+    font-size: 11px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    line-height: 14px;
+    color: var(--grey);
+    margin-bottom: 20px;
+}
+
+.hero-section__title {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    color: var(--white);
+    margin-bottom: 20px;
+
+}
+
+.hero-section__text {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--grey);
+}
+
+/*Stilizare About Section*/
+
+.about{
+
+}
+
+.about__image {
+    display: inline-block;
+    width: 270px;
+    height: 445px;
+}
+
+.about__subtitle {
+    font-size: 11px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    line-height: 14px;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.about__title {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.about__text {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--black);
+    margin-bottom: 20px
+}
+
+.about__button {
+    color: var(--black);
+    margin-top: 40px;
+}
+
+.container {
+    padding: 130px 55px;
+}
